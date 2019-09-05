@@ -1,0 +1,54 @@
+body            { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+h1, h2          { color:  #FFD700; font-family: courier; }
+h1, h2          { margin: 44; }
+h1              { border-bottom: 4px solid  color:#FFD700; }
+h2              { font-size: 2.2em; text-align: center}
+a               { color:  	#FFD700; font-family: courier;font-size: 1.2em; text-align: top }
+
+table.dataframe, .dataframe th, .dataframe td, .dataframe tr{
+  table-layout: fixed;
+  border: none;
+  border-bottom: 2px solid #f5f5f8;
+  border-collapse: collapse;
+  text-align:center;
+  padding: 20px;
+  margin-bottom: 80px;
+  font-size: 1.0em;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+ thead th{
+    background:  	#E6E6FA	; 
+}
+
+.StandardTable thead th:first-of-type{
+    border-top-left-radius: 100px; 
+}
+
+. thead th:last-of-type{
+    border-top-right-radius: 10px; 
+}
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)	{ background-color: 	#fff; }
+
+tr:hover            { background-color:  	#FFff99;}
+
+
+body {
+	background: url("https://images.unsplash.com/photo-1547420242-96597f83190f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+
+h1 {font-family:courier; font-size: 34px; }
+
+p {font-family:courier;  font-size: 1.0em; text-align: center;color: 	#FFFAFA;}
+
+div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+                                                   
